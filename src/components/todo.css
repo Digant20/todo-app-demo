@@ -1,0 +1,85 @@
+.mainContainer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+    position: absolute;
+    top: 35%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+
+    width: 120%;
+}
+
+.mainContainer4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.todoText{
+
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin: 10px;
+    width: 150%;
+    height: 30px;
+}
+
+.todoAddButton{
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin: 10px;
+    height: 33px;
+    background-color: white;
+    color: green;
+    margin-left: 20px;   
+}
+
+
+.mainContainer3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 180, 180);
+    border: 1px solid rgb(235, 194, 194);
+    border-radius: 2px;
+    box-shadow: 8px;
+    margin-left:10px;
+    width: 38%;
+    flex-wrap: wrap;
+    
+}
+
+.bodyContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.editButton{
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin: 10px;
+    height: 30px;
+    padding: 2%;
+    
+    background-color: white;
+    color: green;
+}
+
+
+.theDate{
+
+    display: flex;
+    padding: 10px;
+}
+
+
+.theTime{
+    display: flex;
+    padding: 10px;
+    margin-left: 112px;
+    
+}
